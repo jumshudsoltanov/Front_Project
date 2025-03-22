@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: #cce7ff;
-    padding: 80px;
-    height: 70.4rem;
+    padding: 50px;
+    height: 70.5rem;
     gap: 10rem;
 }
 .banner-content {
@@ -43,6 +43,84 @@
 }
 .banner-image {
     max-width: 737px;
-    height: 764px;
+    height: 794px;
     border-radius: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 25px;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .banner-image {
+        display: none;
+    }
+
+    .banner-content {
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .discount-text {
+        font-size: 28px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .shop-button {
+        font-size: 20px;
+        padding: 18px 35px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 25px;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .banner-image {
+        display: none; 
+    }
+
+    .banner-content {
+        text-align: left;
+        max-width: 100%;
+    }
+
+    .discount-text {
+        font-size: 28px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .shop-button {
+        font-size: 20px;
+        padding: 18px 35px;
+    }
 }

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+.category_header {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 4.8rem;
+    font-family: playfair;
+    font-weight: bold;
+}
+.category_banner{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.owmen {
+    background-image: url(../images/cat1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    width: 395px;
+    height: 240px;
+    text-align: center;
+    padding-left: 18rem;
+    padding-top: 80px;
+    position: relative;
+   
+}
+
+.owmen button {
+    width: 152px;
+    height: 43px;
+    background-color: #FFCE25;
+    color: black;
+    font-family: sans-serif;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 3rem;
+
+}
+
+
+.new {
+
+    font-size: 2.3rem;
+    font-family: yellowtail;
+    color: #0072FE;
+    position: absolute;
+    bottom: 0;
+    top: 14rem;
+    left: 18rem;
+    right: 0;
+
+}
+.winter {
+    width: 395px;
+    height: 240px;
+}
+
+h2{
+    font-size: 2.6rem;
+    font-family: playfair;
+}
+
+
+
+.winter {
+    background-image: url(../images/cat2.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    width: 395px;
+    height: 240px;
+    text-align: center;
+    padding-left: 18rem;
+    padding-top: 80px;
+    position: relative;
+   
+}
+
+
+
+.first {
+    font-size: 2.3rem;
+    font-family: yellowtail;
+    color: #0072FE;
+}
+
+h2{
+    font-size: 2.6rem;
+    font-family: playfair;
+}
+
+.second {
+    font-size: 2.3rem;
+}
+
+
+
+.men {
+    background-image: url(../images/cat3.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    width: 395px;
+    height: 240px;
+    text-align: center;
+    padding-left: 18rem;
+    padding-top: 80px;
+    position: relative;
+   
+}
+
+.men button {
+    width: 152px;
+    height: 43px;
+    background-color: #FFCE25;
+    color: black;
+    font-family: sans-serif;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 3rem;
+
+}
+
+
+.new {
+
+    font-size: 2.3rem;
+    font-family: yellowtail;
+    color: #0072FE;
+    position: absolute;
+    bottom: 0;
+    top: 14rem;
+    left: 18rem;
+    right: 0;
+
+}
+.man {
+    width: 395px;
+    height: 240px;
+}
+
+h2{
+    font-size: 2.6rem;
+    font-family: playfair;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .category_banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .owmen {
+        width: 470px;
+        height: 260px;
+    }
+
+    .winter {
+        width: 470px;
+        height: 260px;
+    }
+
+    .men {
+        width: 470px;
+        height: 260px;
+    }
+     
+}
