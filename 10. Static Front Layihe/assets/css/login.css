@@ -465,6 +465,28 @@ height: 2.3rem;
         flex-direction: column;    
     }
 /* End Login */
+
+/* Footer Start */
+
+.footer_container{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.footer_logo{
+    margin-left: 1rem;
+}
+.footer_logo p {
+    width: 50rem;
+}
+.copyration {
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Footer End */
+
 }
 
 
