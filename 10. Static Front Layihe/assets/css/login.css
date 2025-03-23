@@ -22,17 +22,64 @@
     font-family: Playfair;
     text-align: center;
     font-weight: bold;
-    padding-top: 10rem;
-    padding-left: 0;
+    padding-top: 15rem;
+    padding-left: 30rem;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 /* Banner End */
 
+
+/* Body Start */
 body {
     overflow-x: hidden;
 }
+
+/* Body End */
+
+
+
+/* Start Login Container */
+
+.login_container {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+/* Start Left Container */
+.left_container {
+    width: 55.5rem;
+    height: 60rem;
+    padding: 8rem 7rem;
+    background-color: #AC8AA9;
+}
+
+/* End Left Container */
+
+/* ----------------------------------- */
+
+/* Start Right Container */
+
+.right_container {
+    width: 55.5rem;
+    height: 60rem;
+    padding: 8rem 7rem;
+   
+}
+
+/* End Right Container */
+
+
+
+/* End Login Container */
+
+
+
 
 /* MediaQuery 768 && 576 */
 
