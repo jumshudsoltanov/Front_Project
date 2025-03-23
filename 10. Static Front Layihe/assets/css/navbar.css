@@ -1,4 +1,3 @@
-
 nav {
     margin-left: 2rem;
     margin-right: 1rem;
@@ -11,7 +10,6 @@ nav {
     border-bottom: 4px solid white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 
 .menu_list {
     display: none;
@@ -39,7 +37,6 @@ nav {
     color: red;
 }
 
-
 .navbar_right {
     display: flex;
     justify-content: center;
@@ -47,12 +44,10 @@ nav {
     gap: 2rem;
 }
 
-
 .logo img {
     width: 12rem;
     height: auto;
 }
-
 
 .dropbtn {
     display: inline-block;
@@ -63,7 +58,6 @@ nav {
     font-size: 1.5rem;
     font-weight: 600;
 }
-
 
 .hot {
     width: 3.2rem;
@@ -83,16 +77,15 @@ nav {
     padding: 0 0.5rem;
 }
 
-
 li.dropdown {
     position: relative;
     display: inline-block;
 }
 
+
 .dropdown-content {
     margin-top: 4rem;
     border-top: 3px solid red;
-    display: none;
     position: absolute;
     background-color: #f9f9f9;
     width: 16rem;
@@ -100,7 +93,20 @@ li.dropdown {
     z-index: 10;
     border-radius: 0.5rem;
     overflow: hidden;
+
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
+
+
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 .dropdown-content a {
     color: black;
@@ -112,13 +118,9 @@ li.dropdown {
     transition: background 0.3s ease-in-out;
 }
 
+
 .dropdown-content a:hover {
     background-color: #f1f1f1;
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 
@@ -140,9 +142,7 @@ li.dropdown {
     cursor: text;
     padding: 1rem 1rem 1rem 3rem; 
     font-size: 1.4rem;
-    
 }
-
 
 .search_icon {
     position: absolute;
@@ -165,7 +165,6 @@ li.dropdown {
     padding-top: 1rem;
 }
 
-
 .hearth_icon i {
     font-size: 3rem;
 }
@@ -183,7 +182,6 @@ li.dropdown {
     top: -10%;
     right: 0%;
     left: 3rem;
-
 }
 
 .shop_icon {
@@ -196,11 +194,9 @@ li.dropdown {
     padding-top: 1rem;
 }
 
-
 .shop_icon i {
     font-size: 3rem;
 }
-
 
 .sigin_button button {
     width: 12.2rem;
@@ -211,18 +207,14 @@ li.dropdown {
     font-size: 1.7rem;
 }
 
-
-.sigin_button button:hover{
+.sigin_button button:hover {
     background-color: #00B1FF;
     transition: 1s;
 }
 
-/* Mediaquery */
 
-
-
-@media screen and (max-width: 576px){
-    .navbar_center{
+@media screen and (max-width: 576px) {
+    .navbar_center {
         display: none;
     }
 
@@ -235,11 +227,8 @@ li.dropdown {
     }
 }
 
-
-
-
-@media screen and (max-width: 768px){
-    .navbar_center{
+@media screen and (max-width: 768px) {
+    .navbar_center {
         display: none;
     }
 
@@ -252,9 +241,8 @@ li.dropdown {
     }
 }
 
-
-@media screen and (max-width: 992px){
-    .navbar_center{
+@media screen and (max-width: 992px) {
+    .navbar_center {
         display: none;
     }
 
@@ -266,4 +254,3 @@ li.dropdown {
         font-size: 3rem;
     }
 }
-

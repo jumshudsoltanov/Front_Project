@@ -358,3 +358,127 @@ font-size: 4.8rem;
 
     
 }
+
+
+
+@media screen and (max-width: 992px) {
+
+    .products_navbar{
+        margin-top: 25rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .products_navbar h2{
+    
+    font-size: 3rem;
+    
+    }
+    
+    
+    .products_navbar_items ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    
+    }
+    
+    .products_navbar_items a{
+        font-size: 1.8rem; 
+        color: gray;
+        font-family: sans-serif;
+    }
+    
+    
+    .product_images{
+        width: 360px;
+        height: 392px;
+        position: relative;
+        margin-top: 14rem;
+    }
+    
+    
+    .product_items {
+       
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .product_desc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .stars {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    
+    }
+    
+    
+    .product_desc a {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        color: black;
+    }
+    
+    
+    .product_desc a:hover {
+        color: red;
+    }
+    
+    
+    
+    .price{
+        margin-top: 1rem;
+    }
+    .price span {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    
+    .price .sales {
+        color: red;
+        margin-left: 1rem;
+        text-decoration: line-through;
+    }
+    
+    .gold {
+        color: gold;
+    }
+    
+    
+    .list {
+        margin-top: 15rem;
+    }
+    
+    
+    .sales_tag {
+      width: 7rem;
+      height: 3rem;
+      position: absolute;
+      color: white;
+      background-color: red;
+      border-radius: 20rem;
+      text-align: center;
+      font-size: 1.3rem;
+      padding-top: 0.5rem;
+      top: 2rem;
+      bottom: 0rem;
+      right: 0rem;
+      left: 3rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+
+}
