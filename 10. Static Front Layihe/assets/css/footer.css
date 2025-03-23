@@ -1,0 +1,16 @@
+.end-bar {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
