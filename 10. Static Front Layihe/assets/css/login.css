@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
 /* Start Banner */
 .category_banner {
     max-width: 1200rem;
@@ -197,7 +201,7 @@ body {
 /* Footer Start */
 
 .footer_container {
-    margin-top: 25rem;
+    margin-top: 15rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -219,6 +223,10 @@ height: 2.3rem;
 
 .logo_desc {
     width: 26.2rem;
+    font-family: poppins;
+    font-size: 1.6rem;
+    color: gray;
+    margin-top: 2.5rem;
 }
 
 /* Footer Logo End */
@@ -235,6 +243,7 @@ height: 2.3rem;
 .quick_links h2 {
 
     font-size: 2.2rem;
+    font-weight: bold;
 }
 
 .quick_links ul {
@@ -244,13 +253,19 @@ height: 2.3rem;
     align-items: left;
     flex-direction: column;
     text-align: left;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .quick_links ul li a  {
    text-align: left;
     color: gray;
     font-size: 1.6rem;
+}
+
+.quick_links ul li a:hover {
+    color: blue;
+    margin-left: 1rem;
+    transition: 1s;
 }
 
 /* Qucik Links End */
@@ -269,6 +284,7 @@ height: 2.3rem;
 .products h2 {
 
     font-size: 2.2rem;
+    font-weight: bold;
 }
 
 .products ul {
@@ -278,7 +294,7 @@ height: 2.3rem;
     align-items: left;
     flex-direction: column;
     text-align: left;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .products ul li a  {
@@ -286,11 +302,17 @@ height: 2.3rem;
     color: gray;
     font-size: 1.6rem;
 }
+.products ul li a:hover  {
+    color: blue;
+    margin-left: 1rem;
+    transition: 1s;
+}
+
 /* Products Link End */
 
 /* Support Link Start */
 
-.support{
+.support_link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,35 +320,61 @@ height: 2.3rem;
     font-family: poppins;
 }
 
-.support h2 {
-    margin-right: 2rem;
+.support_link h2 {
+    margin-right: 5rem;
     font-size: 2.2rem;
+    font-weight: bold;
 }
 
-.support ul {
+.support_link ul {
     margin-top: 2rem;
     display: flex;
     justify-content: left;
     align-items: left;
     flex-direction: column;
     text-align: left;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
-.support ul li a  {
+.support_link ul li a  {
    text-align: left;
     color: gray;
     font-size: 1.6rem;
 }
 
-
-
-
+.support_link ul li a:hover  {
+    color: blue;
+    margin-left: 1rem;
+    transition: 1s;
+}
 /* Support Link End */
 
+/* Copyration Start */
 
+.copyration {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: poppins;
+
+}
+
+
+.social {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+   
+}
+
+
+/* End Copyration */
 
 /* Footer End */
+
+/* --------------------------------------------------*/
 
 /* MediaQuery 768 && 576 */
 
@@ -357,10 +405,40 @@ height: 2.3rem;
     display: flex;
     flex-direction: column;    
 }
+/* End Login */
+
+/* Footer Start */
+
+.footer_container{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.footer_logo{
+    margin-left: 1rem;
+}
+.footer_logo p {
+    width: 50rem;
+}
+.copyration {
+    text-align: center;
+    flex-direction: column;
+}
+/* Footer End */
 
 }
 
+
+
+
+
+
 /* End 768 */
+
+
+
+/* ----------------------------------------------- */
 
 /* Responsive 576px */
 @media screen and (max-width: 576px) {
@@ -386,8 +464,9 @@ height: 2.3rem;
         display: flex;
         flex-direction: column;    
     }
-
+/* End Login */
 }
+
 
 
 /* End 576px */
