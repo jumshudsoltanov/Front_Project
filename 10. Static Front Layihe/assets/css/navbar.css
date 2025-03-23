@@ -205,6 +205,7 @@ li.dropdown {
     background-color: #2577FD;
     color: white;
     font-size: 1.7rem;
+    border: none;
 }
 
 .sigin_button button:hover {
