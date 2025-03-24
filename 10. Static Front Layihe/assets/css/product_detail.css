@@ -1,0 +1,37 @@
+/* Start Banner */
+.category_banner {
+    max-width: 1200rem;
+    height: 30rem;
+    background-image: url(../images/category.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.category_banner h2 {
+    width: 100%;
+    max-width: 114rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    font-family: Playfair;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15rem;
+    padding-left: 30rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Banner End */
+
+
+/* Body Start */
+body {
+    overflow-x: hidden;
+}
+
+/* Body End */
