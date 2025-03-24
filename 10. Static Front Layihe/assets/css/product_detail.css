@@ -129,6 +129,15 @@ body {
 
 /* End Static Data */
 
+/* Start Subscribe Menu */
+
+.subscribe_container{
+    margin-top: 8rem;
+    width: 144rem;
+    height: 61.1rem;
+    background-color: #191d34;
+}
+
 /* ------------------------------------------MediaQuery------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
