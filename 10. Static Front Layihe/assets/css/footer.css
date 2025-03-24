@@ -1,16 +1,294 @@
-.end-bar {
-    margin-top: 8rem;
+/* Footer Start */
+
+.footer_container {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+/* Footer Logo */
+
+.logo_img {
+    width: 26.2rem;
+    height: 2.5rem;
+}
+
+.logo_img img {
+width: 10.2rem;
+height: 2.3rem;
+}
+
+.logo_desc {
+    width: 26.2rem;
+    font-family: poppins;
+    font-size: 1.6rem;
+    color: gray;
+    margin-top: 2.5rem;
+}
+
+/* Footer Logo End */
+
+/* Qucik Links  Start */
+.quick_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: poppins;
+}
+
+.quick_links h2 {
+
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.quick_links ul {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    gap: 1.5rem;
+}
+
+.quick_links ul li a  {
+   text-align: left;
+    color: gray;
+    font-size: 1.6rem;
+}
+
+.quick_links ul li a:hover {
+    color: blue;
+    margin-left: 1rem;
+    transition: 1s;
+}
+
+/* Qucik Links End */
+
+
+/* Product Links Start */
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: poppins;
+}
+
+.products h2 {
+
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.products ul {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    gap: 1.5rem;
+}
+
+.products ul li a  {
+   text-align: left;
+    color: gray;
+    font-size: 1.6rem;
+}
+.products ul li a:hover  {
+    color: blue;
+    margin-left: 1rem;
+    transition: 1s;
+}
+
+/* Products Link End */
+
+/* Support Link Start */
+
+.support_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: poppins;
+}
+
+.support_link h2 {
+    margin-right: 5rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.support_link ul {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    gap: 1.5rem;
+}
+
+.support_link ul li a  {
+   text-align: left;
+    color: gray;
+    font-size: 1.6rem;
+}
+
+.support_link ul li a:hover  {
+    color: blue;
+    margin-left: 1rem;
+    transition: 1s;
+}
+/* Support Link End */
+
+/* Copyration Start */
+
+.copyration {
+    margin-top: 7rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    font-family: poppins;
+
 }
 
 
 .social {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 2rem;
     font-size: 2rem;
+   
 }
+
+
+/* End Copyration */
+
+/* Footer End */
+
+/* --------------------------------------------------*/
+
+/* MediaQuery 768 && 576 */
+
+/* Responsive 768px */
+@media screen and (max-width: 768px) {
+    .category_banner {
+        max-width: 100%;
+        height: 25rem;
+    }
+
+    .category_banner h2 {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5rem;
+        font-family: Playfair;
+        text-align: center;
+        font-weight: bold;
+        padding-left: 0;
+    }
+
+
+/* Login */
+
+
+.login_container {
+    display: flex;
+    flex-direction: column;    
+}
+/* End Login */
+
+/* Footer Start */
+
+.footer_container{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.footer_logo{
+    margin-left: 1rem;
+}
+.footer_logo p {
+    width: 50rem;
+}
+.copyration {
+    text-align: center;
+    flex-direction: column;
+}
+/* Footer End */
+
+}
+
+
+
+
+
+
+/* End 768 */
+
+
+
+/* ----------------------------------------------- */
+
+/* Responsive 576px */
+@media screen and (max-width: 576px) {
+    .category_banner {
+        max-width: 100%;
+        height: 25rem;
+    }
+
+    .category_banner h2 {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        font-family: Playfair;
+        text-align: center;
+        font-weight: bold;
+        padding-left: 0;
+    }
+
+/* login */
+    .login_container {
+        display: flex;
+        flex-direction: column;    
+    }
+/* End Login */
+
+/* Footer Start */
+
+.footer_container{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.footer_logo{
+    margin-left: 1rem;
+}
+.footer_logo p {
+    width: 50rem;
+}
+.copyration {
+    text-align: center;
+    flex-direction: column;
+}
+
+/* Footer End */
+
+}
+
+
+
+/* End 576px */

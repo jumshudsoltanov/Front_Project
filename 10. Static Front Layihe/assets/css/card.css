@@ -33,15 +33,128 @@
 
 /* Banner End */
 
+/* start Card */
+.card_items {
+    margin-top: 20rem;
+    width: 100rem;
+    margin-left: 20rem;
+}
+
+.main {
+    width: 150px; height: 150px; margin-top: 20px;
+    display: flex;
+}
+td {
+    font-size: 1.5rem;
+    color: gray;
+}
+td button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+
+}
 
 
+th p {
+    margin-top: 8rem;
+    margin-left: 4rem;
+    width: 500px;
+    font-size: 1.3rem;
+    color: grey;
+}
 
+.first_items {
+    border-bottom: 1px solid;
+}
 
+.card_product_first {
+    display: flex; width: 739; height: 155; display: flex;
+}
 
+.btn {
+    margin-top: 2rem;
+    border-bottom: 1px solid gray;
+}
+.btn button {
+    width: 195px;
+    height: 59px;
+    background-color: #2577FD;
+    color: white;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.right {
+    margin-left: 57rem;
+}
+
+.left {
+    margin-left: 2rem;
+}
+
+.subtotal {
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    gap: 20rem;
+    font-size: 1.6rem;
+    color: gray;
+}
+.subtotal {
+    display: flex;
+}
 
 /* -------------------------------MediaQuey-------------------------------------------- */
 
 
 
 
+/* ------------- RESPONSIVE 768px---------------------- */
+@media screen and (max-width: 768px) {
+   /* Start Banner */
+    .card_banner {
+      max-width: 100%;
+      height: 25rem;
+    }
+  
+    .card_banner h2 {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 5rem;
+      font-family: Playfair;
+      text-align: center;
+      font-weight: bold;
+      padding-left: 0;
+    }
+    /* End Banner */
+}
+/* ------------- END RESPONSIVE 768px---------------------- */
 
+
+
+/* ------------- RESPONSIVE 576px---------------------- */
+@media screen and (max-width: 576px) {
+   /* Start Banner */
+    .card_banner {
+      max-width: 100%;
+      height: 25rem;
+    }
+  
+    .card_banner h2 {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
+      font-family: Playfair;
+      text-align: center;
+      font-weight: bold;
+      padding-left: 0;
+    }
+    /* End Banner */
+}
+/* ------------- END RESPONSIVE 576px---------------------- */
