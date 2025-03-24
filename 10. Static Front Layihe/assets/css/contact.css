@@ -40,9 +40,125 @@
 }
 
 /* End Location */
+/* start form */
+
+.form_container {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form_items h2{ font-family: playfair; font-size: 2.7rem;}
+
+.textarea {
+    width: 75rem;
+    height: 19rem;
+}
+
+.textarea textarea {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px 6px 18px;
+    font-size: 1.5rem;
+    border: 0.2px solid gray;
+}
+
+.form_items input{
+    border: 0.2px solid gray;
+    font-size: 1.3rem;
+    padding: 6px 12px 6px 18px;
+    
+}
+
+.personal_data input {
+    flex-direction: row;
+    margin-top: 5rem;
+    width: 36rem;
+    height: 4.8rem;
+}
+#email {
+    margin-left: 3rem;
+}
+.subject input {
+  margin-top: 3rem;
+  width: 75rem;
+  height: 4.8rem;
+}
+
+.btn  {
+    margin-top: 3rem;
+    width: 10.4rem;
+    height: 4.85rem;
+}
+
+.btn button  {
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    font-size: 1.5rem;
+    background-color: #2577FD;
+    color: white;
+    border: none;
+}
+
+.home {
+    display: flex;
+    gap: 1.5rem;
+}
+.home h3 {
+    font-family: playfair;
+    font-size: 1.8rem;
+}
+.home p{
+  font-family: poppins;
+  font-size: 1.6rem;
+  color: gray;
+}
+.home i {
+    font-size: 2.7rem;
+}
 
 
 
+
+
+.phone {
+    display: flex;
+    gap: 1.5rem;
+}
+.phone h3 {
+    font-family: playfair;
+    font-size: 1.6rem;
+}
+.phone p{
+  font-family: poppins;
+  font-size: 1.8rem;
+  color: gray;
+}
+.phone i {
+    font-size: 2.7rem;
+}
+
+
+.mail {
+    display: flex;
+    gap: 1.5rem;
+}
+.mail h3 {
+    font-family: playfair;
+    font-size: 1.8rem;
+}
+.mail p{
+  font-family: poppins;
+  font-size: 1.6rem;
+  color: gray;
+}
+.mail i {
+    font-size: 2.7rem;
+}
+/* End Form */
 /* --------------------------------- MediaQuery ------------------------------------------------------ */
 
 
@@ -78,8 +194,8 @@ display: none;
 
 /* End Locations */
 
+
 }
-  
 
 
 
@@ -119,6 +235,88 @@ display: none;
         display: none;
         }
     /* End Locations */
+
+/* Start Form  */
+
+
+.form_container {
+    margin-top: 8rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_items h2{ font-family: playfair; font-size: 2.7rem;}
+
+.textarea {
+    width: 47rem;
+    height: 19rem;
+}
+
+.textarea textarea {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px 6px 18px;
+    font-size: 1.5rem;
+    border: 0.2px solid gray;
+}
+
+.form_items input{
+    border: 0.2px solid gray;
+    font-size: 1.3rem;
+    padding: 6px 12px 6px 18px;
+    
+}
+
+.personal_data input {
+    flex-direction: row;
+    margin-top: 3.2rem;
+    width: 47rem;
+    height: 4.8rem;
+}
+#email {
+    margin-left: 0rem;
+}
+.subject input {
+
+  width: 47rem;
+  height: 4.8rem;
+}
+
+.btn  {
+    margin-top: 2rem;
+    width: 10.4rem;
+    height: 4.85rem;
+}
+
+.btn button  {
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    font-size: 1.5rem;
+    background-color: #2577FD;
+    color: white;
+    border: none;
+}
+
+.home {
+    margin-top: 4rem;
+    margin-right: 25rem;
+}
+
+.phone {
+    margin-top: 4rem;
+
+
+}
+
+.mail {
+    margin-top: 4rem;
+}
+
 
 }  
 
