@@ -1,0 +1,172 @@
+.boot_capms_containers {
+    width: 100%;
+    height: 220px;
+    margin-top: 4rem;
+    background-color: #f2f3f7;
+    padding: 20px;
+    
+}
+
+.boot_capms_containers p {
+    background-color: white;
+    border-left: 1px solid black;
+    padding-left: 20px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+.paraqraf {
+    margin-top: 30px;
+}
+
+.social {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social .left {
+    margin-left: 40px;
+}
+
+.social .right {
+    margin-right: 60px;
+}
+
+.post img {
+    width: 60px;
+    height: 60px;
+}
+
+.post {
+    display: flex;
+   margin-right: 300px;
+}
+
+.left_post {
+  
+    display: flex;
+}
+
+.right_post {
+    display: flex;
+    margin-right: 300px;
+
+}
+
+.hero {
+    margin-top: 200px;
+    width: 750px;
+    height: 200px;
+    background-color: #fbf9ff;
+    display: flex;
+    padding: 60px 60px;
+}
+
+.hero img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+
+.hero p {
+    width: 300px;
+}
+
+
+.comment_header h5{
+    font-family: Playfair;
+    font-size: 24px;
+    margin-top: 100px;
+}
+
+.comments {
+    margin-top: 100px;
+}
+
+
+
+.comment_area {
+    margin-top: 30px;
+    width: 750px;
+    height: 200px;
+    background-color: #fbf9ff;
+    display: flex;
+    padding: 60px 60px;
+}
+
+.comment_area img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+
+.comment_area p {
+    width: 300px;
+}
+
+
+.form {
+margin-top: 7rem;    
+}
+
+.form h5 {
+    font-size: 2rem;
+    font-family: playfair;
+}
+
+.text_area textarea {
+    margin-top: 2rem;
+    width: 750px;
+    height: 250px;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+.comment_field input {
+    margin-top: 4rem;
+    width: 350px;
+    height: 48px;
+    padding: 10px;
+    border: 1px solid gray;
+    
+}
+
+
+.first_items {
+    width: 350px;
+}
+
+
+
+.comments_website {
+    margin-top: 2rem;
+    border: 1px solid gray;
+    width: 750px;
+    height: 48px;
+}
+
+.btn_end button  {
+    margin-top: 3rem;
+    width: 300px;
+    height: 48px;
+    background-color: #2577FD;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    font-family: poppins;
+}
+
+
+.fields  span input {
+    margin-top: 2rem;
+    width: 340px;
+    height: 48px;
+    padding: 10px;
+    border: 1px solid;
+}
